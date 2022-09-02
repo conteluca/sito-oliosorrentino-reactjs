@@ -86,17 +86,17 @@ export const galleryItems = {
 }
 export const images = [
     {
-        img: require('../assets/img/home/IMG_0105.JPG'),
+        img: require('../assets/img/home/IMG_0105.jpg'),
     }, {
         img: require('../assets/img/home/97.jpg'),
     }, {
         img: require('../assets/img/home/IMG_0100.jpg'),
     }, {
-        img: require('../assets/img/home/IMG_0128.JPG'),
+        img: require('../assets/img/home/IMG_0128.jpg'),
     }, {
-        img: require('../assets/img/home/IMG_0136.JPG'),
+        img: require('../assets/img/home/IMG_0136.jpg'),
     }, {
-        img: require('../assets/img/home/IMG_0130.JPG'),
+        img: require('../assets/img/home/IMG_0130.jpg'),
     },
 ]
 export const products= {
