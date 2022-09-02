@@ -90,7 +90,7 @@ export const images = [
     }, {
         img: require('../assets/img/home/97.jpg'),
     }, {
-        img: require('../assets/img/home/IMG_0100.JPG'),
+        img: require('../assets/img/home/IMG_0100.jpg'),
     }, {
         img: require('../assets/img/home/IMG_0128.JPG'),
     }, {
