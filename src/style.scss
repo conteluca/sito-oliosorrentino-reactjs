@@ -72,6 +72,7 @@ header .heading {
 }
 
 .btn-primary,
+.btn-primary:disabled,
 .btn-primary:hover,
 .btn-primary:focus,
 {
@@ -82,6 +83,7 @@ header .heading {
   font-size: 1.4rem;
 }
 .btn-primary:focus,
+.btn-primary:disabled,
 .btn-primary:hover{
   box-shadow: 0 0 0 0.25rem rgb(255 200 0 / 50%);
 }
