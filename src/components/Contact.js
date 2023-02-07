@@ -16,7 +16,9 @@ const Contact = ({lang}) => {
         console.log(data);
         e.preventDefault();
         setLoading(true);
-        emailjs.sendForm('service_ys9ur2p', 'template_epmv7fi', form.current, 'rp7nMpjyejeSBybeO')
+        emailjs.sendForm('service_90lhrcg',
+            'template_epmv7fi', form.current,
+            'u6ft_vqteHGQUZKvs')
             .then((result) => {
                 console.log(result.text);
                 setIsSent(true);
@@ -92,8 +94,6 @@ const Contact = ({lang}) => {
                             </Button>
                         </div>
                     </Alert>
-
-
                 </div>
             </Container>
 

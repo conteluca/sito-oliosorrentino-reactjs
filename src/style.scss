@@ -14,15 +14,17 @@ $theme-colors: (
         "nav": $nav-bg,
 );
 header {
-  padding-top: 18rem;
-  padding-bottom: 12rem;
   text-align: center;
+  display: grid;
+  place-items: center;
   color: #fff;
   background-image: url("./assets/img/home/bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 header .subheading {
   font-size: 2rem;
