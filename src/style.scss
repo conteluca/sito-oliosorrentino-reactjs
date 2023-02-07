@@ -14,10 +14,10 @@ $theme-colors: (
         "nav": $nav-bg,
 );
 header {
+  color: #fff;
   text-align: center;
   display: grid;
   place-items: center;
-  color: #fff;
   background-image: url("./assets/img/home/bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;

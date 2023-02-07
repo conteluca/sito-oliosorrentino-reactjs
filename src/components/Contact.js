@@ -24,7 +24,6 @@ const Contact = ({lang}) => {
                 setIsSent(true);
                 setLoading(false);
             }, (error) => {
-                console.log(error.text);
                 window.alert("Message not sent " + error.text)
                 setLoading(false);
             });
