@@ -16,7 +16,7 @@ const Contact = ({lang}) => {
         console.log(data);
         e.preventDefault();
         setLoading(true);
-        emailjs.sendForm('service_90lhrcg',
+        emailjs.sendForm('service_uz55uzk',
             'template_epmv7fi', form.current,
             'u6ft_vqteHGQUZKvs')
             .then((result) => {
